@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Students Enrollment Numbers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list *ngFor="let stud of students">
+       <ion-item>{{stud.eno}}</ion-item>
+       
+    </ion-list>
+</ion-content>
